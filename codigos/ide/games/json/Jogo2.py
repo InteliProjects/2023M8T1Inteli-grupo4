@@ -1,0 +1,1 @@
+[{"id":"custom_1703053211449","text":["Mostrar Imagem","screen.blit(image1, image_rect1)","BlockMessages"],"indentLevel":2},{"id":"custom_1703053217515","text":["Imagem","\n","imagem"],"indentLevel":2}]

@@ -1,0 +1,72 @@
+.children-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza na horizontal */
+    margin-top: 40px;
+    overflow-y: auto; /* Adicione rolagem vertical conforme necessário */
+}
+
+
+.children {
+    margin-top: 10px;
+    margin-bottom:10px; /* Espaçamento entre as divs */
+    border-radius: 20px; /* Bordas arredondadas */
+    border: 2px solid #ccc; /* Borda sólida */
+    padding: 15px; /* Espaçamento interno */
+    width: 800px;
+    height: 100px;
+    display: flex; /* Alinha itens dentro da div filha */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: space-between;
+    overflow: hidden; /* Hide content that overflows the box */
+    transition: transform 0.3s ease; /* Add transition for height change */
+    cursor: pointer;
+    gap: 100px;
+    overflow-y: auto; /* Adicione rolagem vertical conforme necessário */
+
+}
+
+.children:hover {
+    transform: scale(1.1); /* Adjust the scaling factor as needed */ /* Adjust the expanded height as needed */
+}
+
+.children-info-list {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    gap: 5%;
+}
+
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.children > img {
+    width: 40px;
+    height: 40px;
+}
+.text-comp {
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.simple-text {
+    font-weight: 400;
+}
+
+.img-paciente {
+    height: 80%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+

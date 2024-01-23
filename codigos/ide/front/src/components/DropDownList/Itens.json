@@ -1,0 +1,21 @@
+{
+    "blocks": {
+      "Condicionais": [
+        ["se", "\n        if event.type == pygame.KEYDOWN:\n            if", "BlockConditional"],
+        ["se não", "else:\n", "BlockConditional"],
+        ["então", ":\n", "BlockConditional"]
+      ],
+      "respostas": [
+        ["Acerto", "\n", "BlockResponses"],
+        ["Erro", "\n", "BlockResponses"]
+      ],
+      "blocos": [["Pressionar", " event.key == ", "BlockCarpet"]],
+      "feedbacks": [
+        ["Mostrar Imagem", "screen.blit(", "BlockMessages"],
+        ["Tocar Som", "tocar(\n", "BlockMessages"],
+        ["Imagem", "mostrarImagem(", "BlockMessages"],
+        ["Áudio", "tocarAudio(", "BlockMessages"]
+      ]
+    }
+  }
+  
